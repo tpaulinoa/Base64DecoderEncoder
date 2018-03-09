@@ -12,7 +12,7 @@
          <children>
             <Label alignment="CENTER" layoutX="18.0" layoutY="38.0" prefHeight="17.0" prefWidth="542.0" text="This is a simple portable encoder/decoder for Base64." textAlignment="CENTER" textFill="#0043fc" />
             <Label alignment="CENTER" layoutX="18.0" layoutY="103.0" prefHeight="17.0" prefWidth="542.0" text="Source code is available at GitHub, feel free to contribute." textFill="#0043fc" />
-            <Hyperlink fx:id="linkProject" alignment="CENTER" contentDisplay="CENTER" layoutX="18.0" layoutY="132.0" prefHeight="23.0" prefWidth="542.0" text="https://github.com/tpaulinoa/base64encdec" />
+            <Hyperlink fx:id="linkProject" alignment="CENTER" contentDisplay="CENTER" layoutX="18.0" layoutY="132.0" prefHeight="23.0" prefWidth="542.0" text="https://github.com/tpaulinoa/Base64DecoderEncoder" />
             <Label alignment="CENTER" layoutX="18.0" layoutY="70.0" prefHeight="17.0" prefWidth="542.0" text="It's free and safe to use. No internet connection needed." textFill="#0043fc" />
          </children>
       </AnchorPane>
