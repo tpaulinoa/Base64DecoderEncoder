@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane fx:id="mainPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="base64.gui.TextController">
+   <children>
+      <TextArea fx:id="inputTextConversion" layoutX="25.0" layoutY="35.0" prefHeight="115.0" prefWidth="540.0" wrapText="true" />
+      <TextArea fx:id="outputTextConversion" layoutX="25.0" layoutY="214.0" prefHeight="115.0" prefWidth="540.0" wrapText="true" />
+      <Button fx:id="buttonTextEncode" layoutX="65.0" layoutY="160.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="202.0" text="Encode (plain text to Base64)" style="-fx-background-color: #7FFFAA; -fx-border-width: 2px; -fx-border-color: black; -fx-border-radius: 4;"/>
+      <Label layoutX="25.0" layoutY="11.0" prefHeight="17.0" prefWidth="126.0" text="Input" />
+      <Label layoutX="25.0" layoutY="190.0" prefHeight="17.0" prefWidth="112.0" text="Output" />
+      <Button fx:id="buttonTextDecode" layoutX="300.0" layoutY="160.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="214.0" text="Decode (Base64 to plain text)" style="-fx-background-color: #7FF8FF; -fx-border-width: 2px; -fx-border-color: black; -fx-border-radius: 4;"/>
+      <Button fx:id="buttonCopyText" layoutX="23.0" layoutY="335.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="176.0" text="Copy to clipboard" />
+   </children>
+</Pane>
