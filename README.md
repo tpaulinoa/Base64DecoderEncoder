@@ -7,3 +7,6 @@ These is the features implemented in the first version:
   - simple text
   - files (a single file or a whole folder)
   - an encoded text to image preview
+
+
+##### **Important! This tool requires JRE 1.8**
