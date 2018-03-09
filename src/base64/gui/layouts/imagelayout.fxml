@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane fx:id="mainPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="base64.gui.ImageController">
+   <children>
+      <TextArea fx:id="inputTextImage" layoutX="25.0" layoutY="35.0" prefHeight="29.0" prefWidth="367.0" wrapText="true" />
+      <Label layoutX="25.0" layoutY="11.0" prefHeight="17.0" prefWidth="226.0" text="Input image encoded in Base64" />
+      <Button fx:id="buttonTextImageDecode" layoutX="403.0" layoutY="35.0" mnemonicParsing="false" prefHeight="29.0" prefWidth="176.0" text="Decode image" style="-fx-background-color: #7FF8FF; -fx-border-width: 2px; -fx-border-color: black; -fx-border-radius: 4;"/>
+      <Pane layoutX="25.0" layoutY="72.0" prefHeight="302.0" prefWidth="554.0" style="-fx-background-color: white;">
+         <children>
+            <ImageView fx:id="imageView" fitHeight="295.0" fitWidth="544.0" layoutX="6.0" layoutY="4.0" pickOnBounds="true" preserveRatio="true" style="-fx-background-color: red; -fx-border-color: blue; -fx-border-style: solid; -fx-border-width: 5;" />
+         </children>
+      </Pane>
+   </children>
+</Pane>

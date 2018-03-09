@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="base64.gui.GuiController">
+   <children>
+      <MenuBar fx:id="menuBar" prefHeight="25.0" prefWidth="600.0">
+        <menus>
+          <Menu fx:id="mainMenu" mnemonicParsing="false" text="Encode/Decode">
+            <items>
+              <MenuItem fx:id="menuTextConversion" mnemonicParsing="false" text="Text" />
+                  <MenuItem fx:id="menuSingleFile" mnemonicParsing="false" text="Single file" />
+                  <MenuItem fx:id="menuMultipleFiles" mnemonicParsing="false" text="Multiple files" />
+                  <MenuItem fx:id="menuImageDecode" mnemonicParsing="false" text="Decode Image" />
+            </items>
+          </Menu>
+          <Menu mnemonicParsing="false" text="Info">
+            <items>
+              <MenuItem fx:id="menuAbout" mnemonicParsing="false" text="About" />
+            </items>
+          </Menu>
+        </menus>
+      </MenuBar>
+      <AnchorPane fx:id="mainPane" layoutY="25.0" prefHeight="375.0" prefWidth="600.0" />
+   </children>
+</Pane>
