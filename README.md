@@ -11,7 +11,7 @@ These is the features implemented in the first version:
 #### Build
 
 
-To build project, you should have Gradle installed.
+To build project, you must have Gradle installed.
 After, just run command "gradle buildJar" in the folder's project.
 
 
